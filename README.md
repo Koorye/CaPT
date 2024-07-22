@@ -89,6 +89,28 @@ pip install -r requirements.txt
 pip install setuptools==59.5.0
 ```
 
+**Install wordvecs (optional)**
+
+If you want to use other wordvecs like GloVe, FastText and Wikipedia2vec, please download them:
+```
+bash scripts/download_wordvecs.sh
+```
+Then extract them into the `pretrained/` directory, like:
+```
+pretrained/
+├── glove.6B.50d.txt
+├── glove.6B.100d.txt
+├── glove.6B.200d.txt
+├── glove.6B.300d.txt
+├── cc.en.300.bin
+├── enwiki_20180420_300d.pkl
+```
+Finally update these config items in `train.py` like:
+```python
+cfg.TRAINER.UCP.TOKENIZER_MODE = 'glove'
+cfg.TRAINER.UCP.TOKENIZER = 'glove.6B.300d.txt'
+```
+
 ----
 
 # Data preparation
