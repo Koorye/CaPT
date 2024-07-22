@@ -39,8 +39,8 @@ Offical implementation of the paper [Rethinking Conditional Prompt Tuning for Vi
 Our CaPT is orthogonal to existing unconditional prompt tuning approaches, therefore can be used as a plugin to improve all of them.
 
 <div align="center">
-  <img src="examples/acc.png" width="40%" />
-  <img src="examples/cost.png" width="40%" />
+  <img src="examples/acc.png" width="48.4%" />
+  <img src="examples/cost.png" width="49%" />
 </div>
 
 **Base-to-New Generalization Performance**
