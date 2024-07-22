@@ -32,7 +32,7 @@ Offical implementation of the paper [Rethinking Conditional Prompt Tuning for Vi
 
 # Flexibility and Effectiveness
 
-Our DePT is orthogonal to existing unconditional prompt tuning approaches, therefore can be used as a plugin to improve all of them.
+Our CaPT is orthogonal to existing unconditional prompt tuning approaches, therefore can be used as a plugin to improve all of them.
 
 <div align="center">
   <img src="examples/acc.png" width="40%" />
