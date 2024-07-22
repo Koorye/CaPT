@@ -38,7 +38,7 @@ Our CaPT is orthogonal to existing unconditional prompt tuning approaches, there
 
 ![Base-to-New Generalization](examples/b2n.png)
 
-**Comparison with state-of-art**
+**Comparison with state-of-art (DeCaPT = DePT + CaPT)**
 
 ![Comparison with state-of-art](examples/compare_w_sota.png)
 
