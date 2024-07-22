@@ -18,11 +18,7 @@ Offical implementation of the paper [Rethinking Conditional Prompt Tuning for Vi
 
 > **Abstract** Prompt tuning has demonstrated remarkable success in adapting large Vision-Language pretrained Models (VLPMs) to a variety of downstream tasks. Despite the great promise, existing prompt learning methods often struggle to overcome the Base-New Tradeoff (BNT) problem, i.e. as VLPMs are better tuned to a base (or target) task, their ability to generalize to new tasks diminishes. Recent work on conditional prompt learning addresses this problem by replacing static prompts with dynamic Visual Image Information (VII)-conditioned prompts, improving the model’s generalization to new tasks to some extent. In this work, we identify a critical issue with existing conditional prompt tuning approaches: the performance gains on new tasks do not benefit from the VII injected into the prompt. In fact, even a random noise-conditioned prompt can outperform the VII-conditioned counterpart. On further analysis, we find that learning dynamic prompts conditioned on Textual Class Information (TCI) is the key to solving the BNT problem in prompt tuning. Motivated by this, we propose Class-adaptive Prompt Tuning (CaPT), which enables fast adaptation of tuned models to new classes by learning TCI-conditioned prompts from the base task classes. Notably, our CaPT is orthogonal to existing unconditional prompt tuning approaches and can be used as a plugin to enhance them with negligible additional computational cost. Extensive experiments on several datasets show the strong flexibility and effectiveness of CaPT. CaPT consistently improves the performance of a broad spectrum of prompt tuning methods across base-to-new generalization, cross-dataset generalization and cross-domain generalization settings.
 
-<!-- ![Framework](examples/overview.png) -->
-<div align="center">
-    <img src="examples/overview.png" width="74%" />
-    <img src="examples/framework.png" width="23.8%" />
-</div>
+![Overview](examples/overview.png)
 
 ----
 
@@ -37,11 +33,6 @@ Offical implementation of the paper [Rethinking Conditional Prompt Tuning for Vi
 # Flexibility and Effectiveness
 
 Our CaPT is orthogonal to existing unconditional prompt tuning approaches, therefore can be used as a plugin to improve all of them.
-
-<div align="center">
-  <img src="examples/acc.png" width="48.4%" />
-  <img src="examples/cost.png" width="49%" />
-</div>
 
 **Base-to-New Generalization Performance**
 
