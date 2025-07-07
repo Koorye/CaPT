@@ -1,6 +1,6 @@
-# Rethinking Conditional Prompt Tuning for Vision-Language Models
+# A Closer Look at Conditional Prompt Tuning for Vision-Language Models
 
-Offical implementation of the paper [Rethinking Conditional Prompt Tuning for Vision-Language Models]().
+Offical implementation of the paper [A Closer Look at Conditional Prompt Tuning for Vision-Language Models](https://arxiv.org/abs/2506.23856).
 
 **Note:** We are doing our best to improve this work. If you have any questions or suggestions, please feel free to create an issue in this repo or contact us at jizhang.jim@gmail.com.
 
